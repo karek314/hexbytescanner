@@ -68,7 +68,7 @@ using namespace std;
                         }
                         uint64_t PatchDistance = 0x1;
                         if (argv[5]) {
-                            PatchDistance = strtoull(argv[3], NULL, 0);
+                            PatchDistance = strtoull(argv[5], NULL, 0);
                             NSLog(@"Patch distance: 0x%llx",PatchDistance);
                         } else {
                             NSLog(@"Default patch distance: 0x%llx",PatchDistance);
