@@ -4,7 +4,7 @@ Static byte pattern scanner with binary patcher for MacOS.
 Unlike most byte pattern scanners, it's static one. It allows to search binaries by byte patterns with optional wildcard like
 ```F9 1F ?? 82 12``` where ```??``` is wildcard byte. It can also patch specified address with new bytes.
 
-Additionally, pattern searching and patching can be combined and done automatically by adding json object, called tasks or hooks, each one can be either patching or regular search task. There is also possbility to define distance between pattern and patch location. It allows fairly automatic binary patching.  
+Additionally, pattern searching and patching can be combined and done automatically by adding json object, called tasks or hooks, each one can be either patching or regular search task. There is also possibility to define distance between pattern and patch location. It allows fairly automatic binary patching.  
 
 Repository [hexbytescanner-hooks](https://github.com/karek314/hexbytescanner-hooks) with some useful/example hooks published by contributors.
 
